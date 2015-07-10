@@ -1,0 +1,51 @@
+﻿namespace Free.FileFormats.VRML
+{
+	public enum VRMLReaderError
+	{
+		UnexpectedEndOfStream=1,
+		IllegalCharacterInStream=2,
+		PROTOAlreadyDefined=3,
+		MultipleISStatementForField=4,
+		UnexpectedNodeType=5,
+		UnknownFieldInNode=6,
+		ProtoFound=7,
+
+		SFBoolInvalid=20,
+		SFColorInvalid=21,
+		SFColorRGBAInvalid=22,
+		SFFloatInvalid=23,
+		SFImageInvalid=24,
+		SFInt32Invalid=25,
+		SFMatrix3fInvalid=26,
+		SFMatrix4fInvalid=27,
+		SFNodeInvalid=28,
+		SFRotationInvalid=29,
+		SFStringInvalid=30,
+		SFTimeInvalid=31,
+		SFVec2fInvalid=32,
+		SFVec3fInvalid=33,
+		SFVec4fInvalid=34,
+		MFBoolInvalid=35,
+		MFColorInvalid=36,
+		MFColorRGBAInvalid=37,
+		MFFloatInvalid=38,
+		MFImageInvalid=39,
+		MFInt32Invalid=40,
+		MFMatrix3fInvalid=41,
+		MFMatrix4fInvalid=42,
+		MFNodeInvalid=43,
+		MFRotationInvalid=44,
+		MFStringInvalid=45,
+		MFTimeInvalid=46,
+		MFVec2fInvalid=47,
+		MFVec3fInvalid=48,
+		MFVec4fInvalid=49,
+
+		// Warnings (default)
+		USENameNotDefined=101,
+		RouteSourceNameNotDefined=102,
+		RouteTargetNameNotDefined=103,
+		RedundantISStatement=104,
+		ImproperInitializationOfMFNode=105,
+	}
+}
