@@ -550,7 +550,7 @@ namespace Free.FileFormats.VRML
 				RouteDeclaration route=new RouteDeclaration();
 				route.EventOut=eventOutId;
 				route.Target=instances[nodeNameIdIn];
-				route.EventOut=eventInId;
+				route.EventIn=eventInId;
 				instances[nodeNameIdOut].Routes.Add(route);
 			}
 		}
